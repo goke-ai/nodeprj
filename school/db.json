@@ -1,0 +1,228 @@
+{
+  "programs": [
+    {
+      "id": 1,
+      "program_code": "CSC",
+      "name": "Computer Science",
+      "description": "A program focused on computer science and software engineering."
+    },
+    {
+      "id": 2,
+      "program_code": "ENG",
+      "name": "Engineering",
+      "description": "A program covering various engineering disciplines."
+    },
+    {
+      "id": 3,
+      "program_code": "MAT",
+      "name": "Mathematics",
+      "description": "A program for students passionate about mathematics."
+    }
+  ],
+  "levels": [
+    {
+      "id": 1,
+      "name": "Freshman",
+      "description": "First-year students"
+    },
+    {
+      "id": 2,
+      "name": "Sophomore",
+      "description": "Second-year students"
+    },
+    {
+      "id": 3,
+      "name": "Junior",
+      "description": "Third-year students"
+    }
+  ],
+  "students": [
+    {
+      "id": 1,
+      "matric_no": "202301",
+      "name": "John Smith",
+      "email": "john.smith@example.com",
+      "program": 1,
+      "level": 2,
+      "courses": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 2,
+      "matric_no": "202302",
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "program": 2,
+      "level": 1,
+      "courses": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 3,
+      "matric_no": "202303",
+      "name": "Michael Johnson",
+      "email": "michael.johnson@example.com",
+      "program": 3,
+      "level": 3,
+      "courses": [
+        1
+      ]
+    },
+    {
+      "id": 4,
+      "matric_no": "202304",
+      "name": "Emily Brown",
+      "email": "emily.brown@example.com",
+      "program": 1,
+      "level": 1,
+      "courses": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": 5,
+      "matric_no": "202305",
+      "name": "William Davis",
+      "email": "william.davis@example.com",
+      "program": 2,
+      "level": 2,
+      "courses": [
+        1
+      ]
+    },
+    {
+      "id": 6,
+      "matric_no": "202306",
+      "name": "Olivia Martinez",
+      "email": "olivia.martinez@example.com",
+      "program": 3,
+      "level": 1,
+      "courses": [
+        1,
+        2
+      ]
+    },
+    {
+      "id": 7,
+      "matric_no": "202307",
+      "name": "Liam Wilson",
+      "email": "liam.wilson@example.com",
+      "program": 1,
+      "level": 3,
+      "courses": [
+        2
+      ]
+    },
+    {
+      "id": 8,
+      "matric_no": "202308",
+      "name": "Sophia Smith",
+      "email": "sophia.smith@example.com",
+      "program": 2,
+      "level": 2,
+      "courses": [
+        3
+      ]
+    },
+    {
+      "id": 9,
+      "matric_no": "202309",
+      "name": "James Taylor",
+      "email": "james.taylor@example.com",
+      "program": 3,
+      "level": 1,
+      "courses": [
+        1
+      ]
+    },
+    {
+      "id": 10,
+      "matric_no": "202310",
+      "name": "Ava Anderson",
+      "email": "ava.anderson@example.com",
+      "program": 1,
+      "level": 2,
+      "courses": [
+        2,
+        3
+      ]
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "course_code": "MATH101",
+      "name": "Mathematics",
+      "instructor": "Prof. Williams",
+      "schedule": "Mon, Wed, Fri 10:00 AM - 11:30 AM"
+    },
+    {
+      "id": 2,
+      "course_code": "PHYS102",
+      "name": "Physics",
+      "instructor": "Dr. Thompson",
+      "schedule": "Tue, Thu 2:00 PM - 3:30 PM"
+    },
+    {
+      "id": 3,
+      "course_code": "CHEM103",
+      "name": "Chemistry",
+      "instructor": "Prof. Davis",
+      "schedule": "Mon, Wed 1:00 PM - 2:30 PM"
+    },
+    {
+      "id": 4,
+      "course_code": "COMP101",
+      "name": "Introduction to Programming",
+      "instructor": "Dr. Brown",
+      "schedule": "Tue, Thu 10:00 AM - 11:30 AM"
+    },
+    {
+      "id": 5,
+      "course_code": "ENG101",
+      "name": "English Composition",
+      "instructor": "Prof. Johnson",
+      "schedule": "Mon, Wed 2:00 PM - 3:30 PM"
+    },
+    {
+      "id": 6,
+      "course_code": "MECH101",
+      "name": "Mechanical Engineering Fundamentals",
+      "instructor": "Dr. Wilson",
+      "schedule": "Tue, Thu 2:00 PM - 3:30 PM"
+    },
+    {
+      "id": 7,
+      "course_code": "STAT101",
+      "name": "Introduction to Statistics",
+      "instructor": "Prof. Martinez",
+      "schedule": "Mon, Wed 10:00 AM - 11:30 AM"
+    },
+    {
+      "id": 8,
+      "course_code": "BIO101",
+      "name": "Biology Basics",
+      "instructor": "Dr. Taylor",
+      "schedule": "Tue, Thu 1:00 PM - 2:30 PM"
+    },
+    {
+      "id": 9,
+      "course_code": "ECON101",
+      "name": "Principles of Economics",
+      "instructor": "Prof. Smith",
+      "schedule": "Mon, Wed 1:00 PM - 2:30 PM"
+    },
+    {
+      "id": 10,
+      "course_code": "ART101",
+      "name": "Introduction to Art",
+      "instructor": "Prof. Anderson",
+      "schedule": "Tue, Thu 10:00 AM - 11:30 AM"
+    }
+  ]
+}
