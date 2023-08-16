@@ -18,7 +18,6 @@ console.log(students);
 
 const studentElt = document.querySelector(".students");
 
-
 const dataRow = students.map((v, i) =>
   `<tr>
     <td>${v.id}</td>
@@ -29,7 +28,7 @@ const dataRow = students.map((v, i) =>
     <td>${v.level}</td>
     <td>${v.courses}</td>    
   </tr>
-`);
+`).join("");
 
 studentElt.innerHTML =
   `<table>
